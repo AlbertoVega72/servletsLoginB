@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author Ger
+ * @author Alberto
  */
 public class cDatos {
     
