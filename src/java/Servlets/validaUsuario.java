@@ -59,8 +59,8 @@ public class validaUsuario extends HttpServlet {
         PrintWriter out = new PrintWriter(res.getOutputStream());
         out.println("<html>");
         out.println("<head><title>Login</title>");
-        out.println("<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css\">
-		<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js\"></script>")
+        out.println("<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css\">);
+	out.println("<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js\"></script>")
         out.println("<head><title>Login</title></head>");
         out.println("<body>");
         out.println("<h1><center>Se ha registrado exitosamente al usuario: "+usuario+"</center></h1>");
